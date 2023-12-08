@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+html, body {
+
+    height: 100%;
+    width: 100%;
+}
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+#card {
+
+    height: 450px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#card img{
+
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+
+#card h2{
+
+    font-size: 20px;
+    text-align: center;
+}
+
+#card h5{
+
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    color: rgba(131, 70, 189, 0.719);
+    
+}
+
+#card button{
+    background-color: rgba(148, 148, 148, 0.164);
+    color: green;
+    border-radius: 10px;
+    padding: 5px 5px;
+    border: 20px 0px;
+    margin-left: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+#card #remove{
+    background-color: rgba(0, 30, 255, 0.267);
+    border-radius: 10px;
+    color: rgb(253, 6, 6);
+    padding: 5px 5px;
+    border: 20px 0px;
+    
+}
